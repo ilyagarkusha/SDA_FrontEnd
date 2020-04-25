@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+<body>
+<header>
+    <h1>Контакт</h1>
+    <nav>
+        <a href="index.html">Профиль</a>
+        <a href="MySkills.html">Навыки</a>
+        <a href="MyProjects.html">Проекты</a></nav>
+</header>
+<section>
+    <br/>
+    <form>
+        <h3>Свяжитесь со мной используя форму ниже </h3>
+        <div id="nameInputContainer">
+            <span>Ваше имя: </span>
+            <input id="nameInput" placeholder="Например: Иван Иванов" name="name"/>
+        </div>
+        <br/>
+        <div id="phoneInputContainer">
+            <span>Номер телефона: </span>
+            <input id="phoneInput" name="phone"/>
+        </div>
+        <br/>
+        <div id="emailInputContainer">
+            <span>Email: </span>
+            <input id="emailInput" name="email"/>
+        </div>
+        <br/>
+        <div id="replyOptionContainer">
+            <span>Как Вы хотите получить ответ?: </span>
+            <select id="replyOption" name="replyType">
+                <option>Email</option>
+                <option>Телефон</option>
+                <option>Почта</option>
+            </select>
+        </div>
+        <br/>
+        <div id="inquiryTypeOptionContainer">
+            <span>Тема Вашего запроса: </span>
+            <div>
+                <input type="radio" id="complain" name="inquiryType" value="complain"/>
+                <label for="complain">жалоба</label>
+            </div>
+            <div>
+                <input type="radio" id="project" name="inquiryType" value="project"/>
+                <label for="project">проект</label>
+            </div>
+            <div>
+                <input type="radio" id="school" name="inquiryType" value="school"/>
+                <label for="school">школа</label>
+            </div>
+        </div>
+        <br/>
+        <div id="inquiryTextareaContainer">
+            <span>Сообщение: </span>
+            <textarea id="inquiryTextarea" name="message"></textarea>
+        </div>
+        <br/><br/>
+        <button type="submit">Отправить</button>
+    </form>
+    <!-- Container tags -->
+    <section>
+        <div>
+            <p>
+                   <span>
+                   </span>
+            </p>
+        </div>
+    </section>
+</section>
+</body>
+</html>
